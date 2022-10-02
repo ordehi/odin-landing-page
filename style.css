@@ -28,11 +28,6 @@ quote text
   margin: 0;
 }
 
-figure img {
-  width: 150px;
-  height: 150px;
-}
-
 header section, .hero__content {
   display: flex;
   flex-wrap: wrap;
@@ -49,6 +44,9 @@ header, .hero, footer {
   background-color: #1F2937;
 }
 
+header span, header nav {
+  padding: .5em;
+}
 
 header .logo {
   font-size: 1.5rem;
@@ -66,6 +64,7 @@ header ul {
 }
 
 header a {
+  text-decoration: none;
   font-size: 1rem;
   color: #E5E7EB;
 }
@@ -77,6 +76,18 @@ header a {
 
 .hero__description {
   max-width: 360px;
+  padding: .5em;
+}
+
+.hero__description > * {
+  margin: .2em 0;
+}
+
+.hero__image {
+  width: 50%;
+  max-width: 300px;
+  height: 150px;
+  padding: .5em;
 }
 
 .hero__title {
@@ -88,6 +99,14 @@ header a {
 .hero__text {
   font-size: 1rem; 
   color: #E5E7EB;
+}
+
+.hero__signup-btn {
+  border: 0;
+}
+
+.hero__image-img {
+  width: 100%;
 }
 
 .info {
@@ -115,6 +134,7 @@ header a {
 .info__images {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .info__figure {
@@ -129,6 +149,8 @@ header a {
 }
 
 .info__img {
+  width: 150px;
+  height: 150px;
   border: 3px solid #3882F6;
   border-radius: 9px;
 }
@@ -169,7 +191,6 @@ button, .cta-banner {
 button {
   border-radius: 5px;
   padding: 5px 20px;
-  margin: .5em;
 }
 
 .cta {
@@ -182,14 +203,17 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   width: 60%;
   max-width: 800px;
+  min-width: 150px;
   padding: 1em;
   border-radius: 9px;
 }
 
-.cta-banner button {
+.cta__button {
   border: 2px solid #F9FAF8;
+  height: 36px;
 }
 
 .cta__figure {
