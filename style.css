@@ -38,11 +38,12 @@ header section, .hero__content {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   padding: 1em;
+  margin: 2em;
 }
 
-header, .hero {
+header, .hero, footer {
   display: flex;
   justify-content: center;
   background-color: #1F2937;
@@ -74,9 +75,13 @@ header a {
   background-color: #1F2937;
 }
 
+.hero__description {
+  max-width: 360px;
+}
+
 .hero__title {
   font-size: 2rem; 
-  font-weight: extra-bold;
+  font-weight: 900;
   color: #F9FAF8;
 }
 
@@ -96,10 +101,14 @@ header a {
   align-items: center;
   width: 100%;
   max-width: 800px;
-  padding: 1em;
+  padding: 3em;
+  margin: 2em;
 }
 
 .info__title {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1F2937;
   padding: 1em;
 }
 
@@ -119,6 +128,34 @@ header a {
   text-align: center;
 }
 
+.testimonials {
+  background-color: #E5E7EB;
+}
+
+.testimonials__content {
+  display: flex;
+  justify-content: center;
+  padding: 5em 3em;
+  margin: 2em;
+}
+
+.testimonials__figure {
+  max-width: 600px;
+}
+
+.testimonials__quote p {
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: italic;
+  color: #1F2937;
+}
+
+.testimonials__caption {
+  font-weight: 900;
+  margin-top: 1em;
+  text-align: right;
+}
+
 button, .cta-banner {
   background-color: #3882F6;
   color: #F9FAF8;
@@ -133,6 +170,7 @@ button {
 .cta {
   display: flex;
   justify-content: center;
+  margin: 5em 1em;
 }
 
 .cta-banner {
@@ -151,4 +189,9 @@ button {
 
 .cta__figure {
   margin: .5em;
+}
+
+footer section {
+  margin: 3em;
+  color: #F9FAF8;
 }
