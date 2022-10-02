@@ -5,61 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <span>Header Logo</span>
-      <nav>
-        <ul>
-          <li>header link one</li>
-          <li>header link two</li>
-          <li>header link three</li>
-        </ul>
-      </nav>
+      <section class="header__content">
+        <span class="logo">Header Logo</span>
+        <nav>
+          <ul>
+            <li><a href="">header link one</a></li>
+            <li><a href="">header link two</a></li>
+            <li><a href="">header link three</a></li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
     <main>
-      <article class="banner">
-        <section class="banner__description">
-          <h1 class="banner__title">This website is awesome</h1>
-          <p>
-            This website has some subtext that goes here under the main title.
-            It's a smaller font and the color is lower contrast.
-          </p>
-          <button class="banner__signup-btn">Sign Up</button>
-        </section>
-        <section class="banner__image">
-          <img src="" alt="" class="banner__image-img" />
-          <p>This is a placeholder for an image</p>
+      <article class="hero">
+        <section class="hero__content">
+          <figure class="hero__description">
+            <h1 class="hero__title">This website is awesome</h1>
+            <figcaption class="hero__text">
+              This website has some subtext that goes here under the main title.
+              It's a smaller font and the color is lower contrast.
+            </figcaption>
+            <button class="hero__signup-btn">Sign Up</button>
+          </figure>
+          <figure class="hero__image">
+            <img src="" alt="" class="hero__image-img" />
+          </figure>
         </section>
       </article>
 
       <article class="info">
-        <h2 class="info__title">Some random information.</h2>
-        <figure class="info__figure">
-          <img src="" alt="" class="info__img" />
-          <figcaption class="info__img-caption">
-            this is some subtext under an illustration or image
-          </figcaption>
-        </figure>
-        <figure class="info__figure">
-          <img src="" alt="" class="info__img" />
-          <figcaption class="info__img-caption">
-            this is some subtext under an illustration or image
-          </figcaption>
-        </figure>
-        <figure class="info__figure">
-          <img src="" alt="" class="info__img" />
-          <figcaption class="info__img-caption">
-            this is some subtext under an illustration or image
-          </figcaption>
-        </figure>
-        <figure class="info__figure">
-          <img src="" alt="" class="info__img" />
-          <figcaption class="info__img-caption">
-            this is some subtext under an illustration or image
-          </figcaption>
-        </figure>
+        <section class="info__content">
+          <h2 class="info__title">Some random information.</h2>
+          <section class="info__images">
+            <figure class="info__figure">
+              <img src="" alt="" class="info__img" />
+              <figcaption class="info__img-caption">
+                this is some subtext under an illustration or image
+              </figcaption>
+            </figure>
+            <figure class="info__figure">
+              <img src="" alt="" class="info__img" />
+              <figcaption class="info__img-caption">
+                this is some subtext under an illustration or image
+              </figcaption>
+            </figure>
+            <figure class="info__figure">
+              <img src="" alt="" class="info__img" />
+              <figcaption class="info__img-caption">
+                this is some subtext under an illustration or image
+              </figcaption>
+            </figure>
+            <figure class="info__figure">
+              <img src="" alt="" class="info__img" />
+              <figcaption class="info__img-caption">
+                this is some subtext under an illustration or image
+              </figcaption>
+            </figure>
+          </section>
+        </section>
       </article>
 
       <article class="testimonials">

@@ -23,3 +23,132 @@ quote section background color
 quote text
 36px light italic #1F2937
 */
+
+* {
+  margin: 0;
+}
+
+figure img {
+  width: 150px;
+  height: 150px;
+}
+
+header section, .hero__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 800px;
+  padding: 1em;
+}
+
+header, .hero {
+  display: flex;
+  justify-content: center;
+  background-color: #1F2937;
+}
+
+
+header .logo {
+  font-size: 1.5rem;
+  color: #F9FAF8;
+}
+
+header nav li {
+  padding: 0 .5em;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+header a {
+  font-size: 1rem;
+  color: #E5E7EB;
+}
+
+.hero {
+  display: flex;
+  background-color: #1F2937;
+}
+
+.hero__title {
+  font-size: 2rem; 
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.hero__text {
+  font-size: 1rem; 
+  color: #E5E7EB;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+}
+
+.info__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  padding: 1em;
+}
+
+.info__title {
+  padding: 1em;
+}
+
+.info__images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.info__figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.info__figure figcaption {
+  text-align: center;
+}
+
+button, .cta-banner {
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: .5em;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-banner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 60%;
+  max-width: 800px;
+  padding: 1em;
+  border-radius: 9px;
+}
+
+.cta-banner button {
+  border: 2px solid #F9FAF8;
+}
+
+.cta__figure {
+  margin: .5em;
+}
